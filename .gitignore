@@ -21,3 +21,9 @@ selenium-debug.log
 
 package-lock.json
 yarn.lock
+
+# Vite dependency scan cache (timestamped sidecar files)
+vite.config.js.timestamp-*.mjs
+
+# Nested git checkouts vendored under Cursor skills (do not track as submodules)
+.cursor/skills/**/.git/
